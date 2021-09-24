@@ -1,0 +1,29 @@
+@import'./func';
+.main{
+    display: inline-grid;
+    grid-template-columns: 42% 57%;
+    
+  }
+  .product{
+    display:flex;
+    flex-direction: column;
+  
+  }
+  .product_title{
+    display: inline;
+    font-size: 20px;
+    background-color: corecolor;
+    color: rgb(239,57,78);
+    margin: 4px 16px 2px 0px;
+  }
+  .rout{
+    color: blue;
+  }
+  .property_product{
+    display: inline;
+  }
+  .product_fullname{
+      display: inline;
+      @include bottomborde();
+
+  }
