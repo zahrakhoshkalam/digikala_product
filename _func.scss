@@ -1,5 +1,6 @@
-@mixin bottomborder {
+@mixin bottomborder($opacity) {
     border-bottom-width: 0.5px;
     border-bottom-style: solid;
-    border-bottom-color: rgba(231, 231, 231, 0.76);
+    border-bottom-color: rgba(231, 231, 231,$opacity);
+ 
   }
